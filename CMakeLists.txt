@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 # Your executable
-add_executable(tokka src/main.cpp)
+add_executable(tokka main.cpp)
 
 # Link SFML libs
 target_link_libraries(tokka sfml-graphics sfml-window sfml-system)
